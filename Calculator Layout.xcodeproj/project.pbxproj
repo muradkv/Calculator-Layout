@@ -11,6 +11,9 @@
 		FAA03A462C9833A00006C11B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA03A452C9833A00006C11B /* SceneDelegate.swift */; };
 		FAA03A482C9833A00006C11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA03A472C9833A00006C11B /* ViewController.swift */; };
 		FAA03A4D2C9833A10006C11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA03A4C2C9833A10006C11B /* Assets.xcassets */; };
+		FAA03A582C98796B0006C11B /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA03A572C98796B0006C11B /* CustomButton.swift */; };
+		FAA03A5A2C9893440006C11B /* CustomStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA03A592C9893440006C11B /* CustomStackView.swift */; };
+		FAA03A5C2C9897320006C11B /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA03A5B2C9897320006C11B /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		FAA03A472C9833A00006C11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAA03A4C2C9833A10006C11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA03A512C9833A10006C11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA03A572C98796B0006C11B /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		FAA03A592C9893440006C11B /* CustomStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStackView.swift; sourceTree = "<group>"; };
+		FAA03A5B2C9897320006C11B /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				FAA03A472C9833A00006C11B /* ViewController.swift */,
 				FAA03A4C2C9833A10006C11B /* Assets.xcassets */,
 				FAA03A512C9833A10006C11B /* Info.plist */,
+				FAA03A572C98796B0006C11B /* CustomButton.swift */,
+				FAA03A592C9893440006C11B /* CustomStackView.swift */,
+				FAA03A5B2C9897320006C11B /* UIColor+Ext.swift */,
 			);
 			path = "Calculator Layout";
 			sourceTree = "<group>";
@@ -130,7 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAA03A5A2C9893440006C11B /* CustomStackView.swift in Sources */,
+				FAA03A582C98796B0006C11B /* CustomButton.swift in Sources */,
 				FAA03A482C9833A00006C11B /* ViewController.swift in Sources */,
+				FAA03A5C2C9897320006C11B /* UIColor+Ext.swift in Sources */,
 				FAA03A442C9833A00006C11B /* AppDelegate.swift in Sources */,
 				FAA03A462C9833A00006C11B /* SceneDelegate.swift in Sources */,
 			);
